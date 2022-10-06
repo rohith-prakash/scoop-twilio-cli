@@ -5,32 +5,32 @@
     "license": "MIT",
     "architecture": {
         "64bit": {
-            "url": "https://isha689.github.io/packages/twilio-v5.0.0/twilio-v5.0.0-win32-x64.tar.xz",
+            "url": "https://rohith-prakash.github.io/test/twilio-win32-x64.tar.xz",
             "hash": "799eb92094843b30ed208971cb8c85446afec9cd76bdc108d032aebf5571f96a"
         },
         "32bit": {
-            "url": "https://isha689.github.io/packages/twilio-v5.0.0/twilio-v5.0.0-win32-x86.tar.xz",
+            "url": "https://rohith-prakash.github.io/test/twilio-win32-x86.tar.xz",
             "hash": "c5991f0ef20019c5eb2dc30f7852234556325aaec83df483bea38f52a5760925"
         }
     },
     "bin": "twilio\\bin\\twilio.cmd",
     "checkver": {
-        "url": "https://twilio-cli-prod.s3.amazonaws.com/version",
+        "url": "https://rohith-prakash.github.io/test/version",
         "jsonpath": "$.version"
     },
     "autoupdate": {
         "architecture": {
             "64bit": {
-                "url": "https://isha689.github.io/packages/twilio-v5.0.0/twilio-v5.0.0-win32-x64.tar.xz",
+                "url": "https://rohith-prakash.github.io/test/twilio-win32-x64.tar.xz",
                 "hash": {
-                    "url": "https://twilio-cli-prod.s3.amazonaws.com/win32-x64",
+                    "url": "https://rohith-prakash.github.io/test/win32-x64",
                     "jsonpath": "$.sha256xz"
                 }
             },
             "32bit": {
-                "url": "https://isha689.github.io/packages/twilio-v5.0.0/twilio-v5.0.0-win32-x86.tar.xz",
+                "url": "https://rohith-prakash.github.io/test/twilio-win32-x86.tar.xz",
                 "hash": {
-                    "url": "https://twilio-cli-prod.s3.amazonaws.com/win32-x86",
+                    "url": "https://rohith-prakash.github.io/test/win32-x86",
                     "jsonpath": "$.sha256xz"
                 }
             }
